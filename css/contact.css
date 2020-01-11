@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white !important;
+}
+
+.contact-header nav ul{
+    position: fixed;
+    overflow: hidden;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 10%;
+    z-index: 1;
+    
+  }
+  
+  .contact-header nav ul li {
+    text-decoration: none;
+    float: left;
+  }
+  
+  .contact-header nav ul li a {
+    display: block;
+    color:black;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .single li a{
+    float: right;
+    color: black !important;
+    position: absolute;
+  }
+  
+  .contact-header {
+    position: relative;
+    width: 100%;
+    height: 20.5vh;
+  }
+
+  .main-content {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+  }
+
+  .main-head {
+      font-size: 30px;
+      font-family: 'Roboto', sans-serif;
+      /* opacity: .68; */
+  }
+
+  .main-form label{
+    display: block;
+    padding: 15px 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.3px;
+  }
+
+  .main-form input, select{
+      padding: 10px 0 10px 5px;
+      width: 80%;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .main-form textarea {
+      width: 80%;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      padding: 5px;
+      display: block;
+      /* line-height: 1.2rem; */
+  }
+
+  .main-form button {
+      background-color: black;
+      color: white;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      margin: 25px 35%
+  }
