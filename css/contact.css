@@ -45,6 +45,7 @@ body {
   }
 
   .main-content {
+    position: relative;
     width: 30%;
     margin: 0 auto;
     margin-bottom: 200px;
