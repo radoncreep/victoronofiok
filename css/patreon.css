@@ -1,8 +1,7 @@
 
 
 
-
-.patreon-header nav ul{
+/* .patreon-header nav ul{
     position: fixed;
     overflow: hidden;
     list-style-type: none;
@@ -34,10 +33,9 @@
     width: 100%;
     height: 30vh;
   }
-  
+   */
   .patreon-container {
     width: 60%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
   }
@@ -54,29 +52,30 @@
     width: 180px;
   }
 
-  @media screen and (max-width: 414px) {
-
+  @media screen and (max-width: 768px) {
     * {
       margin: 0;
       background-color: rgb(24, 6, 46);
       /* background-color: white; */
     }
 
-    .patreon-header {
-      display: none;
+    .collapse a {
+      color:white !important;
+    }
+
+    .nav-content {
+      padding: 0% !important;
+      margin: 0% !important;
     }
 
     .patreon-container {
-      position: relative;
-      top: 25%;
-      left: 15%;
-      /* margin: 0 65px; */
-      width: 80%;
+      width: 100vw;
       flex-wrap: wrap-reverse;
     }
 
     .content1 {
-      width: 90%;
+      width: 80%;
+      margin: 0 auto;
     }
 
     .content1 h2{
@@ -108,7 +107,81 @@
     }
     
     .content2 img{
-      width: 90%;
+      width: 100vw;
       margin-bottom: 20px;
     }
   }
+
+  @media (width: 1440px) {
+    .patreon-container {
+      display: flex;
+      margin: 5% auto 0;
+      width: 80vw;
+    }
+  }
+
+  @media (width: 1024px) {
+    .patreon-container {
+      display: flex;
+      margin: 3% auto;
+      width: 70vw;
+    }
+  }
+
+  
+  @media (width: 2560px) {
+    .patreon-container {
+      display: flex;
+      margin: 5% auto 0;
+      width: 60vw;
+    }
+
+    .content1 h2{
+      text-align: left;
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: black;
+      font-weight: 700;
+    }
+
+    .content1 p{
+      text-align: left;
+      font-family: 'Roboto', sans-serif;
+      width: fit-content;
+      line-height: 30px;
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: black;
+      font-size: 18px;
+    }
+  }
+
+  @media (width: 1920px) {
+    .patreon-container {
+      display: flex;
+      margin: 5% auto 0;
+      width: 70vw;
+    }
+
+    .content1 h2 { 
+      text-align: left;
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: black;
+      font-weight: 700;
+    }
+
+    .content1 p {
+      text-align: left;
+      font-family: 'Roboto', sans-serif;
+      width: fit-content;
+      line-height: 30px;
+      font-size: 14px;
+      margin-bottom: 20px;
+      color: black;
+      font-size: 18px;
+    }
+  }
+
