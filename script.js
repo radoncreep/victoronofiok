@@ -14,8 +14,8 @@
 
 $(document).ready(function () {
 
-    var key = KEY;
-    var playlistId = PLAYLIST_ID;
+    var key = 'AIzaSyCV3HD3K3IU2mUQK3cFTo4o6cK5ZY0SLGw';
+    var playlistId = 'PLgpTVJfnCEzZ4tU6trJHObO5npzTS8gaf';
     var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
 
